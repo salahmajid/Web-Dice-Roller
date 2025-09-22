@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Web-Dice-Roller</title>
+    <script src="dice-roller.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Yahtzee Dice Roller</h1>
+            <div class="instructions">
+                <h2>How to play</h2>
+                <p>This dice roller simulates rolling five 6-sided dice for Yahtzee</p>
+                <p><strong>Instructions</strong></p>
+                <ul>
+                    <li>Click the "Roll Dice" button to roll all five dice</li>
+                    <li>Press Enter key to quickly roll again</li>
+                    <li>Each die will show a random value between 1 and 6</li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="dice-section">
+                <h2>Your dice</h2>
+                <div class="dice-container">
+                    <div class="die-group">
+                        <label for="die1">Die 1:</label>
+                        <input type="text" id="die1" class="die-input" readonly>
+                    </div>
+                    <div class="die-group">
+                        <label for="die2">Die 2:</label>
+                        <input type="text" id="die2" class="die-input" readonly>
+                    </div>
+                    <div class="die-group">
+                        <label for="die3">Die 3:</label>
+                        <input type="text" id="die3" class="die-input" readonly>
+                    </div>
+                    <div class="die-group">
+                        <label for="die4">Die 4:</label>
+                        <input type="text" id="die4" class="die-input" readonly>
+                    </div>
+                    <div class="die-group">
+                        <label for="die5">Die 5:</label>
+                        <input type="text" id="die5" class="die-input" readonly>
+                    </div>
+
+                </div>
+
+                <div class="button-container">
+                    <button id="rollButton" class="roll-button" autofocus>Roll Dice</button>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
