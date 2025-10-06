@@ -1,4 +1,4 @@
-const API_URL = 'dice-server-sja-awf9gzgearfag4eg.canadacentral-01.azurewebsites.net';
+const API_URL = 'https://dice-server-sja-awf9gzgearfag4eg.canadacentral-01.azurewebsites.net/';
 
 async function rollDice() {
     try {
